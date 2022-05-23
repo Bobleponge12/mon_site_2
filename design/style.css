@@ -1,0 +1,61 @@
+html, body {
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+footer {
+    color: black;
+}
+
+header {
+    background-image: url(../img/menuisier/atelier_menuisier1280x847.jpg);
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.header-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .fondBois {
+      background-image: url(../img/menuisier/latte_bois1280x853.jpg);
+      background-size: cover;
+  }
+
+  .fondBoisClair {
+      background-image: url(../img/menuisier/parquet_clair1280x966.jpg);
+      background-size: cover;
+  }
+
+.titre {
+    background: #93441A;
+}
+
+.textPresentation {
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.formulaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rs {
+    font-size: larger;
+}
+
