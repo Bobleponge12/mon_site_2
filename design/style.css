@@ -16,6 +16,38 @@ header {
     position: relative;
 }
 
+#textPresentation {
+    font-size: x-large;
+}
+
+#bodyMessageEnvoye {
+    background-image: url(../img/menuisier/latte_bois1280x853.jpg);
+}
+
+#divMessageEnvoye {
+    margin: 0 auto;
+    background: #541690;
+    color: azure;
+    border: 1px solid brown;
+    border-radius: 10%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#imgMail {
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+    
+}
+
+.aMailEnvoye {
+    color: aliceblue;
+    text-decoration: none;
+}
+
 .header-text {
     text-align: center;
     position: absolute;
@@ -25,18 +57,18 @@ header {
     color: white;
   }
 
-  .fondBois {
+.fondBois {
       background-image: url(../img/menuisier/latte_bois1280x853.jpg);
       background-size: cover;
   }
 
-  .fondBoisClair {
+.fondBoisClair {
       background-image: url(../img/menuisier/parquet_clair1280x966.jpg);
       background-size: cover;
   }
 
-.titre {
-    background: #93441A;
+.title {
+    background: #B67332;
 }
 
 .textPresentation {
@@ -55,7 +87,32 @@ header {
     justify-content: center;
 }
 
+.afterTitle {
+    margin-top: 100px;
+}
+
+.preFooter {
+    margin-bottom: 200px;
+}
+
 .rs {
     font-size: larger;
 }
+
+.aMailEnvoye:hover {
+    font-weight: bolder;
+    color: aquamarine;
+}
+
+@keyframes glissement {
+    from {
+      margin-left: -30%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 100%;
+      width: 100%;
+    }
+  }
 
